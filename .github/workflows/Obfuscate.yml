@@ -1,6 +1,6 @@
-name: Build Obfuscate BPB Panel
+#name: Build Obfuscate BPB Panel
 
-on:
+#on:
   push:
     branches:
       - main
@@ -8,10 +8,10 @@ on:
         # Runs everyday at 1:00 AM
         - cron: "0 1 * * *"
 
-permissions:
+#permissions:
   contents: write
 
-jobs:
+#jobs:
   build:
     runs-on: ubuntu-latest
 
